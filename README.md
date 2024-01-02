@@ -30,6 +30,6 @@ This tutorial shows how to use PyTorch to train a Deep Q Learning (DQN) agent on
 
 **Diagram**
 
-![reinforcement_learning_diagram.png](./docs/image/reinforcement_learning_diagram.png)
+![diagram.png](./docs/image/diagram.jpg)
 
 Actions are chosen either randomly or based on a policy, getting the next step sample from the gym environment. We record the results in the replay memory and also run optimization step on every iteration. Optimization picks a random batch from the replay memory to do training of the new policy. The “older” target_net is also used in optimization to compute the expected Q values. A soft update of its weights are performed at every step.
