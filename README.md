@@ -22,7 +22,7 @@
 
 > <https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html>
 
-- python 3.9.11
+- python 3.11.9
 
 This tutorial shows how to use PyTorch to train a Deep Q Learning (DQN) agent on the CartPole-v1 task from Gymnasium.
 
