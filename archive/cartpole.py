@@ -55,9 +55,9 @@ MIN_LEARNING_RATE = 0.1
 DISCOUNT_FACTOR = 0.99
 
 ## Defining the simulation related constants
-MAX_EPISODES = 1000     # 몇 번이나 기회를 줄까?
-MAX_STEPS = 550         # 이정도면 잘 버텼다!
-SOLVED_STEPS = 499      # 이정도면 잘 버텼다!
+MAX_EPISODES = 1000     # Number of training episodes
+MAX_STEPS = 550         # Max steps allowed per episode
+SOLVED_STEPS = 499      # Considered solved at this step threshold
 STREAK_TO_END = 120
 
 """ Code End """
@@ -174,7 +174,7 @@ def simulate():
 # Visualize time-reward Graph
 import matplotlib
 import matplotlib.pyplot as plt
-# %matplotlib inline    # 주피터 노트북 상에서 그래프를 표현하기 위한 라인
+# %matplotlib inline    # Uncomment to display plots inline in Jupyter
 
 def visualize():
     plt.figure(figsize=(20,8))

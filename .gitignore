@@ -1,2 +1,20 @@
-.ipynb_checkpoints
+.DS_Store
+.claude/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
 venv/
+.venv/
+.venv311/
+env/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
